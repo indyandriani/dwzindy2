@@ -22,10 +22,20 @@
       </form>
 
     </div>
-    <div class="cardfooter">
-      <button class="btn1">Hitung</button>
-    </div>
+     <div class="cardfooter">
+       <button class="btn1" onclick="hitung()">Hitung</button>
+     </div>
+   </div>
   </div>
-</div>
+
+<script>
+  function hitung(){
+  var pj = document.getElementById("PJ").value
+  var lb = document.getElementById("LB").value
+  var luas = pj*lb
+  console.log(luas)
+  }
+</script>
+
 </body>
 </html>
